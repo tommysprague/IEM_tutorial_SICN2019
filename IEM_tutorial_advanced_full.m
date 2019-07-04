@@ -496,7 +496,7 @@ title(sprintf('Delay-period reconstructions: %i to %i ms, %i CV folds',IEM_delay
 % like. If you switch to the 'randomized' mode, what happens when you split
 % trials into fewer CV folds? More?
 
-% JG: Necessary?
+
 
 %% Convert channel responses to 'reconstructions'
 %
@@ -815,7 +815,7 @@ this_fidelity = dot([mux muy],  [cosd(pbins(which_bin)) sind(pbins(which_bin))])
 text(-pi/2,2,sprintf('Fidelity = %.03f',this_fidelity),'HorizontalAlignment','center');
 
 
-%JG: Consider dropping?
+
 
 % EXERCISE: does the order of operations here matter? can you compute
 % fidelity on each trial then average, or do you need to compute fidelity
@@ -921,7 +921,7 @@ text(-160,0.8,sprintf('Slope = %0.03f/\\circ',F(1)));
 % if you want slopes for each trial individually, need to loop over trials
 
 
-% JG: Conisder dropping?
+
 
 %% Reconstructions through time
 
